@@ -1,0 +1,132 @@
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+.points-timer-container{
+    margin-top: 1%;/*10px*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.points, .timer{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.image-container{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.cell{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.keyboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+.btn, .arrow-btn{
+    margin-left: auto;
+    width: 100px;
+    background: none;
+    border: none;
+    font-size: 25px;
+}
+
+.arrow-btn{
+    cursor: pointer;
+    color: #89B807;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: #89B807;
+    border-bottom: 3px solid #89B807;
+}
+
+.hidden-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hidden{
+    font-size: 30px;
+}
+
+.input-hidden{
+    outline: none;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    width: 40px;
+    text-transform: capitalize;
+    border-bottom: 3px solid black;
+    margin-right: 5px;
+    background: none;
+}
+
+.span-hidden{
+    margin-right: 5px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.tipped-container{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.tipped{
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.lives-container{
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+
+.score-container{
+    display: flex;
+    justify-content: space-evenly;
+}

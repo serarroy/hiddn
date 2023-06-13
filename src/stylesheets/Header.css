@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    height: 10vh;
+    background-color: #89B807;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 35px;
+    border-bottom: 3px solid black;
+}
+
+h2{
+    margin-left: 35px;
+}
